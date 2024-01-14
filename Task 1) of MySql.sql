@@ -40,6 +40,8 @@ values (8566, 'MAHADEVAN', 'MANAGER', '8839', '1991-04-02', '2985.00', NULL, '20
 insert into Employee (empno, ename, job, mgr, hiredate, sal, comm, deptno)
 values (8566, 'MAHADEVAN', 'MANAGER', '8839', '1991-04-02', '2985.00', NULL, '20');
 
+-- Note: I insteretd the Employee details using the same line of code I have just repeated it here for a visual representation
+
 select * from Employee;
 
 SELECT ENAME, SAL FROM EMPLOYEE WHERE SAL > 2200;
